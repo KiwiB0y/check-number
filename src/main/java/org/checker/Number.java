@@ -31,12 +31,7 @@ class Number {
     }
 
     public static void main(String[] args) {
-        Number universityNumber = new Number(1, 9, 4, 2, 0, 0, 2);
-        if (universityNumber.isValid()) {
-            System.out.println("This is a real university number!");
-        } else {
-            System.out.println("This number is incorrect!!!");
-        }
+        var universityNumber = new Number(1, 9, 4, 2, 0, 0, 2);
     }
 
     boolean isValid() {
