@@ -39,7 +39,7 @@ class Number {
         }
     }
 
-    private boolean isValid() {
+    boolean isValid() {
         int check = (this.i0 * 9 +
                 this.i1 * 7 +
                 this.i2 * 3 +
